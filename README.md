@@ -167,6 +167,15 @@ python 06_inference/run_dynamic_threshold_experiment.py \
 
 权重溯源：`04_decouple/classification/CLASS_MODEL_LINEAGE.md`、`04_decouple/explanation/EXPLAIN_MODEL_LINEAGE.md`。
 
+## 项目声明
+
+- 项目名称：可解释钓鱼网站检测系统
+- 项目作者：Song Xingyao
+- 作者单位：暨南大学网络空间安全学院
+- 开发语言：python
+- 框架：PyTorch
+- 核心技术：大语言模型微调、知识蒸馏、可解释钓鱼检测、对抗鲁棒与主动学习
+
 ## 安全与隐私
 
 - API Key 仅通过环境变量配置，见 [`.env.example`](.env.example) 与 [`SECURITY.md`](SECURITY.md)。
