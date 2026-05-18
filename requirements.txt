@@ -1,0 +1,22 @@
+# 核心（推理 / 蒸馏 / 评测）
+torch>=2.1.0
+transformers>=4.40.0
+peft>=0.11.0
+bitsandbytes>=0.43.0
+accelerate>=0.28.0
+datasets>=2.18.0
+trl>=0.8.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+numpy>=1.24.0
+tqdm>=4.66.0
+requests>=2.31.0
+openai>=1.0.0
+beautifulsoup4>=4.12.0
+
+# 专家训练（02_expert，需 GPU + Meta Llama 授权）
+unsloth
+
+# 基线（09_baselines，按需安装）
+joblib>=1.3.0
+xgboost>=2.0.0
