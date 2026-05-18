@@ -13,10 +13,10 @@
 ├── LICENSE
 ├── config/paths.py           路径常量与环境变量
 ├── 01_data/                  数据集构建
-├── 02_expert/                专家模型（Llama-3-8B 两阶段 LoRA）
-├── 03_distill_monolithic/    单体学生蒸馏（多任务干涉基线）
-├── 04_decouple/              功能解耦双 LoRA（分类 θ_c + 解释 θ_e）
-├── 05_weights/               权重说明（不含 checkpoint）
+├── 02_expert/                专家模型
+├── 03_distill_monolithic/    单体学生蒸馏
+├── 04_decouple/              功能解耦双 LoRA
+├── 05_weights/               权重说明
 ├── 06_inference/             统一推理评测
 ├── 07_adversarial/           对抗样本生成
 ├── 08_active_learning/       主动学习采样
